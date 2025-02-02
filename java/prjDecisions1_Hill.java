@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 import java.util.Scanner;
-public class prjDesicions1
+public class prjDecisions1_Hill
 {
     public static void main(String[] args)
     {

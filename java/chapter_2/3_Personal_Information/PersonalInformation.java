@@ -11,10 +11,10 @@ public class PersonalInformation
     {
         Scanner keyboard = new Scanner(System.in);
         String name, address, phone, major;
-        name = "Samuel Hill";
-        address = "260 6th St SW, MN, 55964";
-        phone = "507-993-3704";
-        major = "Computer Science";
+        name = "Your name";
+        address = "Your Address";
+        phone = "Your Phone number";
+        major = "Your major";
         System.out.println(name + "\n" + address + "\n" + phone + "\n" +  major);
     }
     

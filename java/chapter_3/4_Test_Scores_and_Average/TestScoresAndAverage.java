@@ -1,3 +1,4 @@
+// this is a test sentence to make sure my github is working
 /* Write a program that has variables to hold three test scores.
  * The program should ask the user to enter three test scores and then assign the values entered to the variables.
  * The program should display the average of the test scores and the letter grade that is assigned for the test score average.

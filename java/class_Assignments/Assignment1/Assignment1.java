@@ -21,47 +21,13 @@ public class Assignment1
 
     public static void displayArray(ArrayList<Integer> randomNumbers)
     {
+        int x = 0;
         for (int i = 0; i < 99; i++)
         {
-            if (i == 0 )
+            if (i == x )
             {
                 System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 10)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 20)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 30)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 40)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 50)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 60)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 70)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 80)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
-            }
-            else if (i == 90)
-            {
-                System.out.print("\n" + randomNumbers.get(i) + " ");
+                x = x + 10;
             }
             else if (i < 99)
             {

@@ -17,13 +17,16 @@ public class Assignment1
         }
 
         displayArray(randomNumbers);
+        largestElement(randomNumbers);
     }
 
     public static void displayArray(ArrayList<Integer> randomNumbers)
     {
         int x = 0;
+        System.out.println("100 Elements in the ArrayList, Orginized by 10");
         for (int i = 0; i < 99; i++)
         {
+            
             if (i == x )
             {
                 System.out.print("\n" + randomNumbers.get(i) + " ");
@@ -33,8 +36,20 @@ public class Assignment1
             {
                 System.out.print(randomNumbers.get(i) + " ");
             }
+        }  
+    }
+
+    public static void largestElement(ArrayList<Integer> randomNumbers)
+    {
+        int largest = randomNumbers.get(0);
+
+        for (int i = 0; i < 99; i++)
+        {
+            if (randomNumbers.get(i) > largest)
+            largest = randomNumbers.get(i);
         }
-            
+
+        System.out.println("\n\nThe largest element in the ArrayList is " + largest + " in index ");
     }
         
 

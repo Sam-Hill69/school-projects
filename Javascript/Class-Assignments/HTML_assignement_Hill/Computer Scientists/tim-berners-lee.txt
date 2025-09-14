@@ -1,0 +1,23 @@
+# Tim Berners-Lee: Inventor of the World Wide Web
+
+![Tim Berners-Lee](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/480px-Sir_Tim_Berners-Lee_%28cropped%29.jpg)
+
+By Paul Clarke - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=53878695
+
+## Biography
+
+Sir Tim Berners-Lee, born in 1955, is a British computer scientist known for inventing the World Wide Web. Raised in a family of mathematicians and scientists, Berners-Lee developed a fascination with electronics and computers from an early age.
+
+## Important Work
+
+In 1989, while working at CERN, Tim Berners-Lee proposed the idea of a system that would use hypertext to allow researchers to share and update information. This proposal laid the foundation for the World Wide Web, and by 1991, he had developed the first web browser and web server. His creation revolutionized communication, information sharing, and collaboration, shaping the modern internet as we know it.
+
+## Links for Further Information
+
+1. [Tim Berners-Lee - Wikipedia](https://en.wikipedia.org/wiki/Tim_Berners-Lee)
+2. [W3C Profile - Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/)
+3. [TED Talk: The next web of open, linked data](https://www.ted.com/tedx)
+
+## Disclaimer
+
+This text was generated using ChatGPT and may contain factual errors. For the most accurate and up-to-date information, it is recommended to refer to reliable sources and biographies dedicated to Tim Berners-Lee.

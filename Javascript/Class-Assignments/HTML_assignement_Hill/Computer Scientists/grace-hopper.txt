@@ -1,0 +1,22 @@
+# Grace Hopper: Pioneer in Computer Science
+
+![Grace Hopper](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/520px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg)
+
+## Biography
+
+Grace Hopper, born Grace Brewster Murray in 1906, was a trailblazing American computer scientist and U.S. Navy rear admiral. Often referred to as "Amazing Grace," she made significant contributions to the field of computer science. Hopper earned her Ph.D. in mathematics from Yale University in 1934 and went on to become one of the foremost pioneers in computing.
+
+## Important Work
+
+One of Grace Hopper's most notable achievements was her pivotal role in the development of the COBOL programming language. COBOL, which stands for Common Business-Oriented Language, became one of the first high-level programming languages and played a crucial role in the standardization of computer programming. Hopper's leadership and vision in the creation of COBOL marked a milestone in the history of programming languages.
+
+## Links for Further Information
+
+1. [Grace Hopper - Wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper)
+2. [Yale University - Grace Hopper College](https://news.yale.edu/2017/02/10/yales-grace-hopper-college-celebrates-name-change-honors-computer-science-pioneer)
+3. [U.S. Navy History - Grace Hopper](https://www.history.navy.mil/our-collections/photography/us-people/h/hopper-grace.html)
+
+## Disclaimer
+
+This text was generated using ChatGPT and may contain factual errors. For the most accurate and up-to-date information, it is recommended to refer to reliable sources and biographies dedicated to Grace Hopper.
+

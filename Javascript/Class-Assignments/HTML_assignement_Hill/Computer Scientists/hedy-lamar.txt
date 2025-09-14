@@ -1,0 +1,21 @@
+# Hedy Lamarr: Actress and Inventor in Computer Science
+
+![Hedy Lamarr](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hedy_Lamarr_-_1940.jpg/509px-Hedy_Lamarr_-_1940.jpg)
+
+## Biography
+
+Hedy Lamarr, born Hedwig Eva Maria Kiesler in 1914, was an Austrian-American actress and inventor. Beyond her successful acting career, Lamarr made groundbreaking contributions to the field of computer science and technology. 
+
+## Important Work
+
+During World War II, Lamarr, along with composer George Antheil, developed a frequency-hopping spread spectrum communication system. This technology aimed to secure radio-controlled torpedoes from enemy interference. Though not initially recognized, Lamarr's invention laid the foundation for modern wireless communication technologies such as Bluetooth and Wi-Fi.
+
+## Links for Further Information
+
+1. [Hedy Lamarr - Wikipedia](https://en.wikipedia.org/wiki/Hedy_Lamarr)
+2. [Biography.com - Hedy Lamarr](https://www.biography.com/actor/hedy-lamarr)
+3. [Women's History - Hedy Lamarr](https://www.womenshistory.org/education-resources/biographies/hedy-lamarr)
+
+## Disclaimer
+
+This text was generated using ChatGPT and may contain factual errors. For the most accurate and up-to-date information, it is recommended to refer to reliable sources and biographies dedicated to Hedy Lamarr.

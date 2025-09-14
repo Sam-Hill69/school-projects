@@ -1,0 +1,21 @@
+# Mark Dean: Innovator in Computer Engineering
+
+![Mark Dean](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mark_Dean%2C_IBM_Fellow_and_vp.jpg/480px-Mark_Dean%2C_IBM_Fellow_and_vp.jpg)
+
+## Biography
+
+Mark Dean, born in 1957, is an African-American computer engineer and inventor renowned for his groundbreaking contributions to the world of computing. Raised with a passion for technology, Dean went on to become a prominent figure in the field of computer science.
+
+## Important Work
+
+Mark Dean is best known for his pivotal role in the development of the IBM Personal Computer (PC). Alongside a team of engineers, he played a crucial part in creating the architecture for the IBM PC, which became the industry standard. Dean is also credited with co-inventing the first gigahertz chip and contributing to the development of the color PC monitor.
+
+## Links for Further Information
+
+1. [Mark Dean - Wikipedia](https://en.wikipedia.org/wiki/Mark_Dean_(computer_scientist))
+2. [IBM Profile - Mark Dean](https://www.ibm.com/ibm/history/ibm100/us/en/icons/personalcomputer/)
+3. [Biography.com - Mark Dean](https://www.biography.com/technologist/mark-dean)
+
+## Disclaimer
+
+This text was generated using ChatGPT and may contain factual errors. For the most accurate and up-to-date information, it is recommended to refer to reliable sources and biographies dedicated to Mark Dean.

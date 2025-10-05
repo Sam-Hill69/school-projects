@@ -1,0 +1,60 @@
+/*
+    Samuel Hill
+    COMP 1741, JavaScript
+    Rochester Community and Technical College
+    Fall, 2025
+
+    Styles go in this file!
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+body {
+  background-color: lightgray;
+}
+header {
+  background-color: rgb(175, 175, 175);
+}
+footer {
+  background-color: rgb(175, 175, 175);
+}
+h1,
+h2 {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: rgb(100, 100, 100);
+  font-family: "Courier New", Courier, monospace;
+}
+
+figcaption {
+  font-size: small;
+  opacity: 0.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

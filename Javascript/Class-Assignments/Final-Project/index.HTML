@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=auto, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="top-header">
+        <div class="greeting">
+            <span>&#9729; Hello!</span>
+        </div>
+        <div class="datetime">
+            <p id="time-display"></p>
+            <p id="date-display"></p>
+        </div>
+    </div>
+
+    <div class="search-bar-container">
+        <form action="https://google.com/search" method="get" id="search-form">
+            <input type="text" name="q" placeholder="Search Google" id="search-input" />
+            <button type="submit" id="search-button">
+            </button>
+        </form>
+    </div>
+
+    <!--A list of at least 10 links to sites and locations that you visit daily. That could be course d2l sites, news sites, sports sites, programming information, or whatever. Make a tool that is useful to you.-->
+    <div class="main-card-grid">
+
+        <div class="container">
+            <h2>Technology</h2>
+            <ul id="technology-list">
+                <li class="link"><a href="https://tryhackme.com/dashboard">Try Hack Me</a></li>
+                <li class="link"><a href="https://adventofcode.com/">Advent of Code</a></li>
+                <li class="link"><a href="https://github.com/">Github</a></li>
+                <li class="link"><a href="https://www.notion.com/"> Notion</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>Investment</h2>
+            <ul id="investment-list">
+                <li class="link"><a href="https://www.apmex.com">Apmex</a></li>
+                <li class="link"><a href="https://www.myequity.com/myequity/login">Equity Trust</a></li>
+                <li class="link"><a href="https://investor.vanguard.com">Vanguard</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>Games</h2>
+            <ul id="game-list">
+                <li class="link"><a href="https://www.mogulrpg.com/index.php">Mongul RPG</a></li>
+                <li class="link"><a href="https://kittensgame.com/web/">Kittens Game</a></li>
+                <li class="link"><a href="https://www.decisionproblem.com/paperclips/index2.html">Universal Paperclips</a></li>
+                <li class="link"><a href="https://vim-adventures.com/">Vim Adventures</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>School</h2>
+            <ul id="school-list">
+                <li class="link"><a href="https://pomofocus.io/">Pomodoro Timer</li>
+                <li class="link"><a href="https://rctc.learn.minnstate.edu/d2l/home">D2L</a></li>
+            </ul>
+        </div>
+
+        <div class="container" id="todo-card">
+            <h3>To-Do List</h3>
+            <form id="todo-form">
+                <div class="input-group"> <input type="text" id="new-task-input" placeholder="Add a task" required>
+                    <button type="button" onclick="newElement()" class="add-task-btn">Add</button>
+                </div>
+            </form>
+            <ul id="todo-items-list">
+            </ul>
+        </div>
+
+        <div class="container">
+            <h3>Your Daily Bible Verse</h3>
+            <button id="fetch-button">Get New Verse</button>
+
+            <div class="container" id="verse-container">
+                <p>Click "Get New Verse" to load a random scripture.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-controls">
+        <button id="change-bg-button">Change Background</button>
+    </div>
+</body>
+</html>
+
+<!--
+Assignment Summary
+Create a personal start page or home page using HTML, CSS, and JavaScript.
+A personal start page is a page that you set as the home or starting page of your web browser, so that it opens when you open a new window or hit the home button.
+You can see an bunch of examples here: https://www.reddit.com/r/startpages/. Please note, the subreddit isn't active, but it should be visible. Also, no guarantees that some of the examples aren't NSFW if you scroll far enough back in time.
+There are some requirements for the page.
+
+Requirements
+A list of at least 10 links to sites and locations that you visit daily. That could be course d2l sites, news sites, sports sites, programming information, or whatever. Make a tool that is useful to you.
+Styled using CSS - make the best design you can come up with.
+Graphic or visual elements that change - either randomly or according to some logic. I.e. a new image shows up each time you load the page.
+Updated and time and date information.
+At least two of the following:
+A calculator in JavaScript
+A Todo list made in JavaScript
+A tool that solves a vexing math problem that you encounter often (convert numbers to hex, solve a quadradic equation).
+A dumb video game of your own design (think Flappy Bird or Pong, not Destiny).
+A dice roller
+A habit tracker
+A useful or fun third party API like in Chapter 10 (keep updated on the weather)
+A suggestion you make for a similar JavaScript project (email me with the idea)
+There are plenty of tutorials on the internet for how to do any of these things. You are welcome to use them. All I ask is that you personalize the implementaition, don't copy and paste code.
+All of the images and graphics that you use need to be either created by you or from sites with explicit free and open source use policies.
+Imagery needs to be appropriate for the workplace. Your start page should be safe to look at during a church service.
+
+Suggestions
+Take some time and look through the examples on Reddit. Some of them are beautiful and useful.
+Make this a tool that you would get use out of - make a thing that makes your daily life easier.
+You probably aren't a web designer, but do what you can to make a page that you think is beautiful or cool.
+Turn In...
+HTML, CSS, JavaScript and image files in a folder structure such that everything works when loaded on my own computer. Zip the folder they are in and submit the zipped folder.
+A screenshot of the startpage on your own computer's web browser.
+A two minute or shorter video fom Kaltura capture where you explain the parts and functionality of the start page.
+
+Requirements for grading.
+Start page needs to run on my own computer.
+Screenshot and video are included with submission.
+Start page is appropriate for viewing in the workplace.
+Additional Requirements
+Functional links lead to useful sites.
+Styled thoughtfully with CSS.
+Elements of interactivity using JavaScript that might include random images or changes based on time of day, time of year, etc.
+At least two JavaScript tools that may be implemented from available tutorials but are personalized and fit the design of the page.-->

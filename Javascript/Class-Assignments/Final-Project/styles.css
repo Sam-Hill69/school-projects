@@ -1,0 +1,285 @@
+* {
+  color: #c6c5e5;
+  margin: 1px;
+  flex-wrap: wrap;
+  flex: auto;
+}
+body {
+  font-family: "Fira Code", monospace;
+  background-color: #1a1b26;
+  display: block;
+  justify-content: flex-start;
+  padding-top: 50px;
+  transition: background-image 1s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer-controls {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  width: 100%;
+}
+#change-bg-button {
+  display: block;
+  background-color: #5c67f2;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: backround-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#change-bg-button:hover {
+  background-color: #6c76ff;
+  transform: translateY(-1px);
+}
+.container {
+  background-color: #2d2e40;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  max-width: 400px;
+}
+.input-group {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+  background-color: #242533;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+#new-task-input {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+  color: #c6c5e3;
+  font-size: 1em;
+  border-radius: 0;
+}
+#new-task-input::placeholder {
+  color: #8c8fa7;
+  opacity: 0.8;
+}
+.add-task-btn {
+  background-color: #5c67f2;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  width: auto;
+  flex-shrink: 0;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+}
+.add-task-btn:hover {
+  background-color: #6c76ff;
+}
+#todo-items-list li {
+  background-color: transparent;
+  border-bottom: 1px solid #3c3f58;
+  color: #c6c5e3;
+}
+#fetch-button {
+  display: block;
+  width: auto;
+  background-color: #5c67f2;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 15px auto;
+  transition: background-color 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#fetch-button:hover {
+  background-color: #6c76ff;
+}
+#verse-container {
+  background-color: #2d2e40;
+  color: #c6c5e3;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-card-grid {
+  display: grid; /* 1. Activate the CSS Grid layout */
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* 2. Create 2 columns of equal width */
+  gap: 20px; /* 3. Add space between the containers */
+  max-width: 900px; /* 4. Center the grid and set a max width */
+  margin: 20px auto 50px auto; /* 5. Add vertical margins and auto-center horizontally */
+  padding: 0 20px; /* Add some padding on the sides */
+}
+#School {
+  border: 1px solid black;
+  flex-direction: column;
+  max-width: 150px;
+  padding-left: 10%;
+  padding-bottom: 15%;
+}
+#school-list li,
+#technology-list li,
+#investment-list li,
+#game-list li {
+  display: flex;
+  background-color: #242533;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 10px;
+  transition: background-color 0.2s;
+}
+#school-list li:hover {
+  background-color: #3c3f58;
+}
+#school-list li a {
+  color: #c6c5e3;
+  text-decoration: none;
+  display: inline;
+  width: auto;
+  border: none;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+#technology-list li:hover {
+  background-color: #3c3f58;
+}
+#technology-list li a {
+  color: #c6c5e3;
+  text-decoration: none;
+  display: inline;
+  width: auto;
+  border: none;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+#investment-list li:hover {
+  background-color: #3c3f58;
+}
+#investment-list li a {
+  color: #c6c5e3;
+  text-decoration: none;
+  display: inline;
+  width: auto;
+  border: none;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+#game-list li:hover {
+  background-color: #3c3f58;
+}
+#game-list li a {
+  color: #c6c5e3;
+  text-decoration: none;
+  display: inline;
+  width: auto;
+  border: none;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+.container h2,
+.container h3 {
+  color: #c6c5e3;
+  border-bottom: 1px solid #3c3f58;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.greeting span {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #c6c5e3;
+}
+.datetime {
+  text-align: right;
+  color: #c6c5e3;
+}
+#time-display {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+}
+#date-display {
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin: 0;
+}
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+#search-form {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 25px;
+  background-color: #2d2e40;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#search-input {
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  color: #c6c5e3;
+  font-size: 1.1em;
+}
+#search-input::placeholder {
+  color: #8c8fa7;
+  opacity: 1;
+}
+#search-button {
+  background-color: #5c67f2;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: white;
+}
+.close {
+  padding: 0 8px;
+  cursor: pointer;
+  color: #8c8fa7;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.close:hover {
+  color: white;
+}

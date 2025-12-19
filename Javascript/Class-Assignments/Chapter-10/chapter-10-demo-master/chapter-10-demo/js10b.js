@@ -9,7 +9,6 @@
 
     Filename: js10b.js
 */
-//AIzaSyBQjIWjOibme7PR0dacXzWKWuQUN-3RbYQ
 // Function to set up and display the Oak Top House Map
 function initMap() {
   // Page objects
